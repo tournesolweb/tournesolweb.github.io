@@ -1,18 +1,19 @@
 ---
-layout: default
+layout: default-nowrap
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">    
-      
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  <div class="masthead">
 
-      <div class="entry">
-        {{ post.content | truncatewords:40}}
-      </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+    <div class="wrapper">
+      <h1>Learn <span class="emph">English</span> with <span class="sr-only">Tournesol</span></h1>
+      <div class="svg-home">
+         <object>
+            <embed src="assets/images/tournesol_large.svg" />
+          </object>
+      </div><!-- / svg-home-->
+
+      <h2 class="text-following">in North Staffordshire &amp; South Cheshire</h2>
+
+    </div>
+
+  </div>
