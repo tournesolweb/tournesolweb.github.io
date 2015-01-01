@@ -145,6 +145,29 @@ h2 {
   }
 }
 
+.list-home {
+  max-width: 600px;
+  margin: 0 auto;
+
+  p {
+    text-align: center;
+  }
+
+  .emph {
+    font-size: 1.2em;
+  }
+}
+
+.row {
+  width: 100%;
+
+  :after {
+    clear:both;
+    float: left;
+  }
+
+}
+
 @include media-query($on-laptop) {
      .svg-home {
          width: 100%;
