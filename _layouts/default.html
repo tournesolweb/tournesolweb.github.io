@@ -60,20 +60,19 @@
       </div>
     </div>
 
-    <div class="wrapper-footer wrapper">
-      <div class="container">
-      {% for post in site.posts %}
-
-        {% if page.quote == post.quote %}
-        <blockquote>
-          {{ post.content }}
-          <div class="author">{{ post.author }}</div>
-        </blockquote>
-        {% endif %}
-
-      {% endfor %}
+    {% for post in site.posts %}
+      {% if page.quote == post.quote %}
+      <div class="wrapper-footer wrapper">
+        <div class="container">
+          <blockquote>
+            {{ post.content }}
+            <div class="author">{{ post.author }}</div>
+          </blockquote>
+         
+        </div>
       </div>
-    </div>
+     {% endif %}
+    {% endfor %}
 
     <div class="wrapper-footer wrapper">
       <div class="container">

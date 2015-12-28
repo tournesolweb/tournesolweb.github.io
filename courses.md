@@ -2,7 +2,7 @@
 layout: page
 title: Courses
 permalink: /courses/
-quote: 2
+quote: 1
 ---
 
 **ILR/Citizenship/Life in the UK Test** -	
