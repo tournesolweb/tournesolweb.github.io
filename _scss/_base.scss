@@ -112,12 +112,18 @@ blockquote {
     font-size: 18px;
     letter-spacing: -1px;
     font-style: italic;
-    margin-bottom: 0;
-    text-align: right;
+
 
     > :last-child {
         margin-bottom: 0;
     }
+
+}
+
+blockquote.rs {
+    margin-bottom: 0;
+    text-align: right;
+
 
     p {
         font-weight: 400;
