@@ -1,6 +1,7 @@
 ---
 layout: post
 title: NATECLA in Nottingham
+category: [news]
 ---
 ![picture of Nottingham](../images/Nottingham.jpg) 
 

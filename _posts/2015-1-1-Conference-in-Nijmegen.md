@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Conference in Nijmegen
+category: [news]
 ---
 ![picture of Nijmegen](../images/Nijmegen.jpg) 
 

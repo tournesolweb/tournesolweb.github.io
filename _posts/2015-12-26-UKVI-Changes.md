@@ -1,6 +1,7 @@
 ---
 layout: post
 title: UKVI Changes - English Tests and Spouse/Partner Visas
+category: [news]
 ---
  
 
