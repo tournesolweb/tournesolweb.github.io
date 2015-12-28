@@ -62,6 +62,21 @@
 
     <div class="wrapper-footer wrapper">
       <div class="container">
+      {% for post in site.posts %}
+
+        {% if page.quote == post.quote %}
+        <blockquote>
+          {{ post.content }}
+          <div class="author">{{ post.author }}</div>
+        </blockquote>
+        {% endif %}
+
+      {% endfor %}
+      </div>
+    </div>
+
+    <div class="wrapper-footer wrapper">
+      <div class="container">
         <footer class="footer">
           <div class="list-home">
           {% include contact-info.html %}
