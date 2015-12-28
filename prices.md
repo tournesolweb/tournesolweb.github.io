@@ -2,6 +2,7 @@
 layout: page
 title: Prices
 permalink: /prices/
+quote: 1
 ---
 
 - First lesson FREE
