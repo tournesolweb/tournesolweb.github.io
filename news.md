@@ -6,7 +6,7 @@ permalink: /news/
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% if post.categories contains 'news' %}
+
         <li>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -14,6 +14,6 @@ permalink: /news/
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
         </li>
-      {% endif %}
+
     {% endfor %}
   </ul>
