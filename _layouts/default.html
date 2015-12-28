@@ -60,6 +60,18 @@
       </div>
     </div>
 
+    {% for post in site.posts %}
+      {% if post.categories contains 'news' %}
+        {% if page.quote == post.quote %}
+        <blockquote>
+          {{ post.content }}
+          <div class="author">{{ post.author }}</div>
+        </blockquote>
+          {% endif %}
+      {% endif %}
+    {% endfor %}
+
+
     <div class="wrapper-footer wrapper">
       <div class="container">
         <footer class="footer">
