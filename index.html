@@ -1,5 +1,6 @@
 ---
 layout: default-nowrap
+quote: 2
 ---
 
   <div class="masthead">
@@ -39,4 +40,18 @@ layout: default-nowrap
       </div>
 
   </div>
+
+  {% for post in site.posts %}
+    {% if page.quote == post.quote %}
+    <div class="wrapper-footer wrapper">
+      <div class="container">
+        <blockquote class="rs">
+          {{ post.content }}
+          <div class="author">{{ post.title }}</div>
+        </blockquote>
+       
+      </div>
+    </div>
+   {% endif %}
+  {% endfor %}
 
