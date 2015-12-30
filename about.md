@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-quote: 2
+quote: 4
 ---
 - Our lessons are friendly and fun!
 - Your tutors are qualified ESOL teachers
