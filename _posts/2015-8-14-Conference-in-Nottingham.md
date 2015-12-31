@@ -2,8 +2,9 @@
 layout: post
 title: NATECLA in Nottingham
 category: [news]
+quote: 0
 ---
-![picture of Nottingham](../images/Nottingham.jpg) 
+![picture of Nottingham](http://tournesolschool.co.uk/images/Nottingham.jpg) 
 
 In May, we attended a half-day conference in Nottingham, organised by the Midlands branch of the National Association for Teaching English and Community Languages to Adults (NATECLA).  It was well worth travelling from our Cheshire base for this event to hear such speakers as Judith Kirsh and Jo Gakonga, luminaries in the world of UK ESOL teaching. 
 
