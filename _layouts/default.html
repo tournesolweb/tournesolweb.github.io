@@ -61,6 +61,7 @@
     </div>
 
     {% for post in site.posts %}
+      {% if post.quote != 0 and page.quote != 0 %}
       {% if page.quote == post.quote %}
       <div class="wrapper-footer wrapper">
         <div class="container">
@@ -71,6 +72,7 @@
          
         </div>
       </div>
+     {% endif %}
      {% endif %}
     {% endfor %}
 
