@@ -62,7 +62,7 @@
 
     {% for post in site.posts %}
 
-      {% if post.quote > 0 %}
+      {% if post.quote == page.quote %}
       <div class="wrapper-footer wrapper">
       <div class="container">
         <blockquote class="rs">
