@@ -60,7 +60,21 @@
       </div>
     </div>
 
+    {% for post in site.posts %}
 
+      {% if post.quote > 0 %}
+      <div class="wrapper-footer wrapper">
+      <div class="container">
+        <blockquote class="rs">
+          {{ post.content }}
+          <div class="author">{{ post.title }}</div>
+        </blockquote>
+       
+      </div>
+      </div>
+      {% endif %}
+      
+    {% endfor %}
 
     <div class="wrapper-footer wrapper">
       <div class="container">
