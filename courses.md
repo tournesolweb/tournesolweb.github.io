@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-with-quote
 title: Courses
 permalink: /courses/
 quote: 1
