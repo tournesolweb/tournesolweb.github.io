@@ -9,7 +9,7 @@ quote: 5
  (Trinity College, London) and DBS checked.
 
 ##Jenny Ryan
-![picture of Jenny](../images/J2.jpg)
+![picture of Jenny](../images/Jenny.jpg)
 
 I love language and love teaching.  I’ve taught English at all levels, but have a special interest in teaching literacy.  I keep my skills up-to-date via NATECLA (the association for ESOL teachers) and by attending conferences in the UK and overseas. Because I’ve spent a lot of time teaching in Asian communities, I know that some learners prefer to have an all-female class such as we at Tournesol can provide.
 
