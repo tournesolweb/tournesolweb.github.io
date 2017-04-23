@@ -1,56 +1,37 @@
----
-layout: default-nowrap
----
-
-  <div class="masthead">
-
-    <div class="wrapper">
-      <h1>Learn <span class="emph">English</span> with <span class="sr-only">Tournesol</span></h1>
-      <div class="svg-home">
-         <object>
-            <embed src="assets/images/tournesol_large.svg" />
-          </object>
-      </div><!-- / svg-home-->
-
-      <h2 class="text-following">in North Staffordshire &amp; South Cheshire</h2>
-
-    </div>
-
-  </div>
-
-  <div class="landing clearfix">
-
-      <div class="wrapper wrapper-main">
-
-        <div class="list-home">
-
-          <p class="emph">Tunstall, Crewe, Burslem, Talke, Alsager, Audley, Kidsgrove, Sandbach, Newcastle, Chesterton</p>
-
-          <ul>
-            <li>
-            All Levels and Needs</li>
-            <li>Friendly, qualified and experienced male and female tutors</li>
-            <li>One-to-one or group classes</li>
-            <li>Times to suit you – daytimes – evenings – weekends</li>
-            <li>Prices to suit you – first lesson free! </li>
-          </ul>
-        </div>
-        
-      </div>
-
-  </div>
-
-  {% for post in site.posts %}
-    {% if page.quote == post.quote %}
-    <div class="wrapper-footer wrapper">
-      <div class="container">
-        <blockquote class="rs">
-          {{ post.content }}
-          <div class="author">{{ post.title }}</div>
-        </blockquote>
-       
-      </div>
-    </div>
-   {% endif %}
-  {% endfor %}
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1504.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p5 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {-webkit-text-stroke: 0px #000000}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">--- layout: default-nowrap ---</span></p>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; line-height: 28.0px; font: 24.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Learn English with Tournesol</b></span></h1>
+<p class="p3"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>in North Staffordshire &amp; South Cheshire</b></span></h2>
+<p class="p5"><span class="s1">Alsager, Audley, Blurton, Burslem, Crewe, Kidsgrove, Newcastle, Sandbach, Trent Vale</span></p>
+<ul class="ul1">
+  <li class="li1"><span class="s2"></span><span class="s1">All Levels and Needs</span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">Friendly, qualified and experienced male and female tutors</span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">One-to-one or group classes</span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">Times to suit you â€“ daytimes â€“ evenings â€“ weekends</span></li>
+</ul>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">{% for post in site.posts %} {% if page.quote == post.quote %}</span></p>
+<p class="p1"><span class="s1">{{ post.content }}</span></p>
+<p class="p1"><span class="s1">{{ post.title }}</span></p>
+<p class="p1"><span class="s1">{% endif %} {% endfor %}<span class="Apple-converted-space"> </span></span></p>
+</body>
+</html>
